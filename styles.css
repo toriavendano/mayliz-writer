@@ -1,0 +1,21 @@
+:root{
+    --cor-texto: #000000;
+    --cor-background: #FFFAFA;
+    --fonte-titulo: 'Oswald';
+    --fonte-texto: 'Merriweather';
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
+    margin: 20%;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+}
+
+p {
+    font-family: var(--fonte-texto);
+    text-align: justify;
+}
